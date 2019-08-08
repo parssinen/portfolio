@@ -1,48 +1,60 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Hind', sans-serif;
+  color: #fff;
 }
 
 ::selection {
-  background: #98fb98;
+  background: #42e4a4;
 }
 
-.lime {
-  color: #98fb98;
+.greener {
+  color: #42e4a4;
 }
 
-wrapper {
-  display: flex;
-  justify-content: center;
-  max-width: 1000px;
-  margin: 50px auto;
-}
-
-.headshot {
-  width: 450px;
-  height: 450px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 25px #bababa;
-  background: url('images/parstakuva.png') center center no-repeat;
-  background-size: cover;
-}
-
-section {
-  width: 50%;
-  align-items: baseline;
-}
+wrapper {}
 
 .title {
-  text-transform: uppercase;
-  margin: 50px 0;
-  display: inline-block;
-  font-weight: 100;
-  font-size: 4em;
-  color: #797979;
+  background: url('images/coffebackdrop.jpg') center center no-repeat;
   width: 100%;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-caption {
-  width: 100%;
+.title-inner {}
+
+.title h1 {
+  font-size: 3em;
+  margin: 30px 0;
+}
+
+.title h3 {
+  font-weight: 100;
+}
+
+.title-button {
+  background-color: transparent;
+  border: 2px solid #42e4a4;
+  border-radius: 20px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 40px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 100;
+  transition: all 0.4s ease;
+}
+
+.title-button:hover {
+  background-color: #42e4a4;
+  color: #fff;
+}
+
+.about {
+  background: url('images/greenbackdrop.jpg') center center no-repeat;
+  background-size: cover;
 }
