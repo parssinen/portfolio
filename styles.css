@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+::selection {
+  background: #98fb98;
+}
+
+.lime {
+  color: #98fb98;
+}
+
+wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.headshot {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px #bababa;
+  background: url('images/parstakuva.png') center center no-repeat;
+  background-size: cover;
+}
+
+section {
+  width: 50%;
+  align-items: baseline;
+}
+
+.title {
+  text-transform: uppercase;
+  margin: 50px 0;
+  display: inline-block;
+  font-weight: 100;
+  font-size: 4em;
+  color: #797979;
+  width: 100%;
+}
+
+caption {
+  width: 100%;
+}
