@@ -2,30 +2,38 @@
   margin: 0;
   padding: 0;
   font-family: 'Hind', sans-serif;
-  color: #fff;
 }
 
 ::selection {
   background: #42e4a4;
 }
 
+section h2 {
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
 .greener {
   color: #42e4a4;
 }
 
-wrapper {}
+.block {
+  padding: 100px 0;
+}
+
+wrapper {
+  text-align: center;
+  color: #fff;
+}
 
 .title {
-  background: url('images/coffebackdrop.jpg') center center no-repeat;
+  background: url('images/forest-fade.jpg') center center no-repeat;
   width: 100%;
   min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
-
-.title-inner {}
 
 .title h1 {
   font-size: 3em;
@@ -55,6 +63,85 @@ wrapper {}
 }
 
 .about {
-  background: url('images/greenbackdrop.jpg') center center no-repeat;
+  color: #565656;
+}
+
+.headshot {
+  background: url('images/parstakuva.png') center center no-repeat;
   background-size: cover;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #565656;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.about h2 {
+  color: #565656;
+}
+
+.about h2::after {
+  display: block;
+  background-color: #42e4a4;
+  width: 30px;
+  height: 3px;
+  content: '';
+  margin: 20px auto;
+}
+
+.third {
+  width: 28%;
+  padding: 2%;
+}
+
+.info-blobs {
+  display: flex;
+  justify-content: center;
+  color: #565656;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.info-blobs h3 {
+  margin-bottom: 15px;
+}
+
+.skills {
+  background: url('images/greenbackdrop.jpg') fixed center center no-repeat;
+  background-size: cover;
+}
+
+.skill-blobs {
+  display: flex;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.skill-blobs i {
+  margin-right: 15px;
+}
+
+.skill-item {
+  margin: 10px 0;
+  text-align: left;
+  font-size: 1.3em;
+}
+
+.half {
+  width: 45%;
+  text-align: center;
+}
+
+.footer {
+  background-color: #1b1b23;
+  color: #fff;
+}
+
+.footer a {
+  color: #42e4a4;
+  text-decoration: none;
+}
+
+.footer i {
+  margin-right: 15px;
 }
